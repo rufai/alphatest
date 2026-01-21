@@ -110,7 +110,7 @@ export default async function FlightDetailsPage({ params, searchParams }: PagePr
 
         <div className="mt-8 text-right">
           <Link href={`/book/${flight.id}?passengers=${passengerCount}`}>
-            <Button size="lg" className="text-lg px-8">
+            <Button >
               Continue to Booking
             </Button>
           </Link>
