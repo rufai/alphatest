@@ -1,0 +1,176 @@
+[
+  {
+    "id": "FL001",
+    "price": 349,
+    "currency": "USD",
+    "legs": [
+      {
+        "departure": { "code": "JFK", "city": "New York", "name": "John F. Kennedy Intl." },
+        "arrival": { "code": "LAX", "city": "Los Angeles", "name": "Los Angeles Intl." },
+        "departureTime": "2024-10-27T08:00:00Z",
+        "arrivalTime": "2024-10-27T11:30:00Z",
+        "duration": 330,
+        "airline": "Alpha Airways",
+        "flightNumber": "AA120",
+        "aircraft": "Boeing 737-800"
+      }
+    ],
+    "stops": 0
+  },
+  {
+    "id": "FL002",
+    "price": 275,
+    "currency": "USD",
+    "legs": [
+      {
+        "departure": { "code": "JFK", "city": "New York", "name": "John F. Kennedy Intl." },
+        "arrival": { "code": "ORD", "city": "Chicago", "name": "O'Hare Intl." },
+        "departureTime": "2024-10-27T09:00:00Z",
+        "arrivalTime": "2024-10-27T10:45:00Z",
+        "duration": 165,
+        "airline": "Beta Connect",
+        "flightNumber": "BC450",
+        "aircraft": "Embraer E175"
+      },
+      {
+        "departure": { "code": "ORD", "city": "Chicago", "name": "O'Hare Intl." },
+        "arrival": { "code": "LAX", "city": "Los Angeles", "name": "Los Angeles Intl." },
+        "departureTime": "2024-10-27T11:30:00Z",
+        "arrivalTime": "2024-10-27T14:00:00Z",
+        "duration": 270,
+        "airline": "Beta Connect",
+        "flightNumber": "BC781",
+        "aircraft": "Airbus A320"
+      }
+    ],
+    "stops": 1
+  },
+  {
+    "id": "FL003",
+    "price": 512,
+    "currency": "USD",
+    "legs": [
+      {
+        "departure": { "code": "JFK", "city": "New York", "name": "John F. Kennedy Intl." },
+        "arrival": { "code": "LAX", "city": "Los Angeles", "name": "Los Angeles Intl." },
+        "departureTime": "2024-10-27T18:00:00Z",
+        "arrivalTime": "2024-10-27T21:15:00Z",
+        "duration": 315,
+        "airline": "Global Airlines",
+        "flightNumber": "GA55",
+        "aircraft": "Boeing 777"
+      }
+    ],
+    "stops": 0
+  },
+  {
+    "id": "FL004",
+    "price": 198,
+    "currency": "USD",
+    "legs": [
+      {
+        "departure": { "code": "JFK", "city": "New York", "name": "John F. Kennedy Intl." },
+        "arrival": { "code": "ATL", "city": "Atlanta", "name": "Hartsfield-Jackson Intl." },
+        "departureTime": "2024-10-27T22:30:00Z",
+        "arrivalTime": "2024-10-28T01:15:00Z",
+        "duration": 165,
+        "airline": "Sigma Shuttle",
+        "flightNumber": "SS210",
+        "aircraft": "Boeing 757"
+      },
+      {
+        "departure": { "code": "ATL", "city": "Atlanta", "name": "Hartsfield-Jackson Intl." },
+        "arrival": { "code": "LAX", "city": "Los Angeles", "name": "Los Angeles Intl." },
+        "departureTime": "2024-10-28T02:15:00Z",
+        "arrivalTime": "2024-10-28T04:30:00Z",
+        "duration": 275,
+        "airline": "Sigma Shuttle",
+        "flightNumber": "SS811",
+        "aircraft": "Airbus A321"
+      }
+    ],
+    "stops": 1
+  },
+  {
+    "id": "FL005",
+    "price": 425,
+    "currency": "USD",
+    "legs": [
+      {
+        "departure": { "code": "LAX", "city": "Los Angeles", "name": "Los Angeles Intl." },
+        "arrival": { "code": "ORD", "city": "Chicago", "name": "O'Hare Intl." },
+        "departureTime": "2024-10-28T11:00:00Z",
+        "arrivalTime": "2024-10-28T17:00:00Z",
+        "duration": 240,
+        "airline": "Midwest Jets",
+        "flightNumber": "MJ33",
+        "aircraft": "Boeing 737 MAX"
+      }
+    ],
+    "stops": 0
+  },
+  {
+    "id": "FL006",
+    "price": 310,
+    "currency": "USD",
+    "legs": [
+      {
+        "departure": { "code": "LAX", "city": "Los Angeles", "name": "Los Angeles Intl." },
+        "arrival": { "code": "DEN", "city": "Denver", "name": "Denver Intl." },
+        "departureTime": "2024-10-28T07:00:00Z",
+        "arrivalTime": "2024-10-28T10:30:00Z",
+        "duration": 120,
+        "airline": "Rocky Mountain Air",
+        "flightNumber": "RMA101",
+        "aircraft": "Airbus A220"
+      },
+      {
+        "departure": { "code": "DEN", "city": "Denver", "name": "Denver Intl." },
+        "arrival": { "code": "ORD", "city": "Chicago", "name": "O'Hare Intl." },
+        "departureTime": "2024-10-28T11:15:00Z",
+        "arrivalTime": "2024-10-28T14:45:00Z",
+        "duration": 150,
+        "airline": "Rocky Mountain Air",
+        "flightNumber": "RMA205",
+        "aircraft": "Airbus A220"
+      }
+    ],
+    "stops": 1
+  },
+  {
+    "id": "FL007",
+    "price": 680,
+    "currency": "USD",
+    "legs": [
+      {
+        "departure": { "code": "SFO", "city": "San Francisco", "name": "San Francisco Intl." },
+        "arrival": { "code": "BOS", "city": "Boston", "name": "Logan Intl." },
+        "departureTime": "2024-10-27T09:00:00Z",
+        "arrivalTime": "2024-10-27T17:45:00Z",
+        "duration": 345,
+        "airline": "Transcontinental Airways",
+        "flightNumber": "TA5",
+        "aircraft": "Boeing 787 Dreamliner"
+      }
+    ],
+    "stops": 0
+  },
+  {
+    "id": "FL008",
+    "price": 415,
+    "currency": "USD",
+    "legs": [
+      {
+        "departure": { "code": "SFO", "city": "San Francisco", "name": "San Francisco Intl." },
+        "arrival": { "code": "BOS", "city": "Boston", "name": "Logan Intl." },
+        "departureTime": "2024-10-27T23:50:00Z",
+        "arrivalTime": "2024-10-28T08:20:00Z",
+        "duration": 330,
+        "airline": "Night Owl Flights",
+        "flightNumber": "NOF101",
+        "aircraft": "Airbus A330"
+      }
+    ],
+    "stops": 0
+  }
+]
