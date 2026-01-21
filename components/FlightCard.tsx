@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Flight } from '@/types/flight';
+import { Flight } from '../types/flight';
 import { Plane, Clock } from 'lucide-react';
 import { formatDuration, formatTime } from '@/lib/utils';
 
